@@ -1,0 +1,93 @@
+html {
+    background: url(see.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header 
+{
+	background-color:#555555; 
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:12px;
+	width: 698px; 
+	height: 20px;
+    padding: 5px; 
+    border: 0px ;  
+    position: absolute;  
+	top:1px;
+	left:1px;
+}
+
+.mainpage 
+{
+	background-color:#505050 ;    
+	width: 700px; 
+	height: 420px;
+    padding: 5px; 
+    border: 1.5px outset black;  
+    position: absolute;  
+	top:50px;
+	left:100px;
+}
+
+
+
+td
+{
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:12px;
+}
+
+input
+{
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:16px;
+	text-align:center;
+	background-color:#505050;
+	border: 1.5px solid white;
+	border-radius: 5px;
+	height: 25px;
+
+}
+
+
+
+input[name="submit"]
+{
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:14px;
+	background-color:#707070;
+	border: 1.5px solid white;
+	border-radius: 5px;
+	height: 35px;
+	width: 250px; 
+}
+
+input[name="reset"]
+{
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:14px;
+	background-color:#707070;
+	border: 1.5px solid white;
+	border-radius: 5px;
+	height: 35px;
+	width: 150px; 
+}
+
+#center {
+	top: 50%; /* Отступ в процентах от верхнего края окна */
+	left: 50%; /* Отступ в процентах от левого края окна */
+	position: absolute; /* Абсолютное позиционирование блока */
+	margin-top: -220px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+	margin-left: -350px; /* Отрицательный отступ от левого края страницы, должен равняться половине высоты блока со знаком минус */
+}
+
+   
+
